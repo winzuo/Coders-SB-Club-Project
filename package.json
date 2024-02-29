@@ -9,7 +9,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "react": "^18.2.0",
     "typescript": "^5.2.2",
     "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^8.15.16",
+    "@types/three": "^0.161.2",
+    "three": "^0.161.0"
   }
 }

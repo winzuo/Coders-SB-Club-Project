@@ -2,7 +2,7 @@
 
 ## What is the purpose of this project?
 
-This project is a pedagogical tool intended for grade students interested in learning about the human body.
+This project is a pedagogical tool intended for grade students interested in learning more about the human body. They area
 
 ## How is this project designed?
 

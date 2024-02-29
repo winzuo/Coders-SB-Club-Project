@@ -2,6 +2,7 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
+import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -22,3 +23,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 `
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+const loader = new OBJLoader();
